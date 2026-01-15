@@ -21,5 +21,5 @@ Beyond research, I am the co-founder of **SkyFlow Robotics**, a startup developi
 Fun Fact
 ======
 I enjoy spending time with my boy Kuma, a playful **Alaskan Malamute** who is turning two years old.
-![Editing a Markdown file for a talk](/images/kuma.jpg)
+![Editing a Markdown file for a talk]
 

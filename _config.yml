@@ -23,14 +23,14 @@ repository               : "rainli10/rainli10.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "sofia_headshot.JPG"
-  name             : "123"
+  avatar           : "1cunzhao.jpg"
+  name             : "Rain Li"
   pronouns         : # example: "she/her"  
   bio              : "Engineering Science<br/>(Robotics Engineering)"
   location         : "Toronto, Canada"
   employer         : "University of Toronto"
   uri              : # URL
-  email            : "sofia.luo@mail.utoronto.ca" 
+  email            : "rain.li@mail.utoronto.ca" 
 
   # Academic websites
   academia         : # URL

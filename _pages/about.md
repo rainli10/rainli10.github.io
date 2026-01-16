@@ -11,9 +11,11 @@ Hi! I am a final-year undergraduate Engineering Science student at the Universit
 
 <!-- <span style="color: red; font-weight: bold;">I am actively seeking further research opportunity in Robotics & Computer Vision in North America!</span> -->
 
-Research Interest
-======
-My research spans **computer vision, robotics, and machine learning**, with a focus on developing systems that bridge **visual understanding and real-world interaction**. I am particularly interested in enabling machines to see, reason, and act in complex environments.
+<div style="font-size: 1.6em; font-weight: 400; color: #000;">Research Interest</div>
+
+My past research experiences focused on both 3D/4D Vision and task excution for autonomou systems. My research goal is to enable robots and autonomous systems to perceive, understand, and interact with the world intelligently to accomplish complex tasks. This lead to my future research interests include but are not limited to: (1) developing learning-based methods for robots task execution, navigation, and (2) improving 3D perception for robotics and high-level scene understanding in real-world environments.
+
+
 
 Beyond Research
 ======

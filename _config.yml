@@ -24,11 +24,11 @@ repository               : "rainli10/rainli10.github.io"
 author:
   # Biographic information
   avatar           : "profile_img.jpg"
-  name             : "Runhao (Rain) Li 李润豪"
+  name             : "Rain (Runhao) Li"
   pronouns         : "he/him"  
-  bio              : "Engineering Science<br/>(Robotics Engineering)"
+  bio              : "BASc Student in Engineering Science, Robotics Engineering at University of Toronto"
   location         : "Toronto, Canada"
-  employer         : "University of Toronto"
+  employer         : 
   uri              : # URL
   email            : "rain.li@mail.utoronto.ca" 
 

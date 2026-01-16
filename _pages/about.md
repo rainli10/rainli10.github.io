@@ -11,18 +11,14 @@ Hi! I am a final-year undergraduate Engineering Science student at the Universit
 
 
 
-<div style="font-size: 1.6em; font-weight: 400; color: #000;">Research Interest</div>
 
-My past research experiences focused on both 3D/4D Vision and task excution for autonomou systems. My research goal is to enable robots and autonomous systems to perceive, understand, and interact with the world intelligently to accomplish complex tasks. This lead to my future research interests include but are not limited to: (1) developing learning-based methods for robots task execution, navigation, and (2) improving 3D perception for robotics and high-level scene understanding in real-world environments.
+Research Interests
+======
+My past research experiences focused on both 3D/4D Vision and task excution for autonomous systems. My research goal is to enable robots/autonomous systems to perceive, understand, and interact with the world intelligently. This lead to my future research interests include but are not limited to: (1) developing learning-based methods for robots task execution, navigation, and (2) improving 3D perception for robotics and high-level scene understanding in real-world environments.
 
 
 
 Research Experiences
 ======
-Beyond research, I am the co-founder of **SkyFlow Robotics**, a startup developing **autonomous drone and robotic platforms** for precision agriculture and turf management. My work integrates fundamental AI methods with applied robotics, with the goal of creating systems that are scientifically rigorous, socially impactful, and practically deployable.
 
-Fun Fact
-======
-I enjoy spending time with my boy Kuma, a playful **Alaskan Malamute** who is turning two years old.
-![Editing a Markdown file for a talk]
 

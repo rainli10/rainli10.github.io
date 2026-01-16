@@ -23,7 +23,7 @@ repository               : "rainli10/rainli10.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "1cunzhao.jpg"
+  avatar           : "profile_img.jpg"
   name             : "Rain Li"
   pronouns         : "he/him"  
   bio              : "Engineering Science<br/>(Robotics Engineering)"

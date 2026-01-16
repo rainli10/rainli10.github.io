@@ -1,12 +1,15 @@
 ---
 permalink: /
-title: "About Me"
+title: "Rain Li"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am a final-year Engineering Science undergraduate at the University of Toronto, specializing in Robotics Engineering. I have had the privilege of working with **[Florian Shkurti](http://www.cs.toronto.edu/~florian/)**, **[Daniel Wigdor](https://danielwigdor.com)**, **[Ervin Sejdić](http://imedlab.org/people/principal-investigator/)**, and **[Steven Waslander](https://www.trailab.utias.utoronto.ca/steven-waslander)** on various research projects.
+
+I am a final year undergraduate Engineering Science Student at University of Toronto, major in Robotics Engineering. I'm working with Professor [Steven Waslander](https://www.trailab.utias.utoronto.ca/steven-waslander) in [Toronto Robotics and AI Lab (TRAIL)](https://www.trailab.utias.utoronto.ca/) for undergraduate thesis.
+
+I worked as student researcher at [Robot Vision & Learning (RVL) lab](https://rvl.cs.toronto.edu/) with Professor [Florian Shkurti](https://www.cs.toronto.edu/~florian/) and been 12-month Co-op on Autonomous Driving team at [Noah's Ark Lab Canada](http://dev3.noahlab.com.hk/).
 
 <span style="color: red; font-weight: bold;">I am actively seeking a PhD position in Computer Vision & Robotics in North America for Fall 2026!</span>
 

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Rain Li / Homepage"
+title                    : "Rain Li's Homepage"
 title_separator          : "-"
 name                     : &name "Rain Li"
 description              : &description "academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile_img.jpg"
   name             : "Rain (Runhao) Li"
-  pronouns         : "he/him"  
+  pronouns         : 
   bio              : "BASc Student in Engineering Science, Robotics Engineering at University of Toronto"
   location         : "Toronto, Canada"
   employer         : 

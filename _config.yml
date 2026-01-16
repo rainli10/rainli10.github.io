@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "1cunzhao.jpg"
   name             : "Rain Li"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"  
   bio              : "Engineering Science<br/>(Robotics Engineering)"
   location         : "Toronto, Canada"
   employer         : "University of Toronto"
@@ -35,7 +35,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=NEVB_gcAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=NdOL5w0AAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/sofialuo/"
+  linkedin         : "https://www.linkedin.com/in/rain-li/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

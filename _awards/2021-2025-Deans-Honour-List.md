@@ -1,5 +1,5 @@
 ---
-title: "Dean's Honour List (2021-2025)"
+title: "Dean's Honour List(2021-2025)"
 collection: awards
 type: "Academic achievement"
 permalink: /awards/awards_Deans_Honour_List

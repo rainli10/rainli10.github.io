@@ -32,9 +32,9 @@
 }
 
 .fun-facts-image img {
-  display: inline-block;
-  max-width: none;
-  width: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   border: 1px solid var(--global-border-color);

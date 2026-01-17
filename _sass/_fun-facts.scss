@@ -25,3 +25,30 @@
   width: 100%;
   height: auto;
 }
+
+.fun-facts-pair {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.fun-facts-pair img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.08);
+}
+
+@media (max-width: 900px) {
+  .fun-facts-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .fun-facts-pair img {
+    height: auto;
+  }
+}

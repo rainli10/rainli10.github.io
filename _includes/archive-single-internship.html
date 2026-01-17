@@ -35,6 +35,9 @@
 
       {% if post.company %}
         <div class="experience-item__company">
+          {% if post.company_logo %}
+            <img class="experience-item__logo" src="{{ post.company_logo | prepend: base_path }}" alt="{{ post.company }} logo">
+          {% endif %}
           {% if post.company_url %}
             <a href="{{ post.company_url }}">{{ post.company }}</a>
           {% else %}

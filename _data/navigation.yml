@@ -11,13 +11,13 @@ main:
   - title: "About Me"
     url: /about/
 
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
   - title: "Awards"
     url: /awards/ 
 
-  - title: "Internships"
+  - title: "Experiences"
     url: /internships/  
 
   # - title: "Guide"

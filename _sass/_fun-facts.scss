@@ -28,7 +28,7 @@
 
 .fun-facts-pair {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.4fr 0.6fr;
   gap: 1rem;
   margin-top: 2rem;
   width: 100%;
@@ -41,6 +41,11 @@
   border-radius: 10px;
   border: 1px solid var(--global-border-color);
   box-shadow: 0 4px 14px rgba(17, 24, 39, 0.08);
+}
+
+.fun-facts-pair img:last-child {
+  height: 240px;
+  align-self: start;
 }
 
 @media (max-width: 900px) {

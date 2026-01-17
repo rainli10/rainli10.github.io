@@ -5,7 +5,7 @@ category: Past Projects
 permalink: /publication/2024-12-01-unigaussian
 excerpt: 'In this work, we propose UniGaussian, a novel approach that learns a unified 3D Gaussian representation from multiple camera models for urban scene reconstruction in autonomous driving. Our contributions are two-fold. First, we propose a new differentiable rendering method that distorts 3D Gaussians using a series of affine transformations tailored to fisheye camera models. Besides, our method maintains real-time rendering while ensuring differentiability. Second, built on the differentiable rendering method, we design a new framework that learns a unified Gaussian representation from multiple camera models. By applying affine transformations to adapt different camera models and regularizing the shared Gaussians with supervision from different modalities, our framework learns a unified 3D Gaussian representation with input data from multiple sources and achieves holistic driving scene understanding. As a result, our approach models multiple sensors (pinhole and fisheye cameras) and modalities (depth, semantic, normal and LiDAR point clouds). Our experiments show that our method achieves superior rendering quality and fast rendering speed for driving scene simulation.'
 date: 2024-12-01
-venue: 'Finshed during co-op'
+venue: 'Accepted by 3DV 2026'
 citation: 'During co-op  as a researcher at <strong>Noah''s Ark Lab</strong>'
 header:
   teaser: "accelerometer_teaser.png"

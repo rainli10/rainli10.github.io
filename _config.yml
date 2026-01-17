@@ -24,6 +24,7 @@ repository               : "rainli10/rainli10.github.io"
 author:
   # Biographic information
   avatar           : "profile_img.jpg"
+  hover_avatar     : "hover.jpg"
   name             : "Rain (Runhao) Li"
   pronouns         : 
   bio              : "BASc Student in Engineering Science, Robotics Engineering at University of Toronto"

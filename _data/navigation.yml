@@ -12,13 +12,13 @@ main:
     url: /about/
 
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "Awards"
     url: /awards/ 
 
   - title: "Experiences"
-    url: /internships/  
+    url: /experiences/  
 
   # - title: "Guide"
   #   url: /markdown/ 

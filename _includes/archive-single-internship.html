@@ -45,16 +45,6 @@
         </div>
       {% endif %}
 
-      {% if post.summary %}
-        <p class="experience-item__summary">
-          {{ post.summary | markdownify | remove: "<p>" | remove: "</p>" }}
-        </p>
-      {% elsif post.excerpt %}
-        <p class="experience-item__summary">
-          {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
-        </p>
-      {% endif %}
-
       {% if post.highlights %}
         <ul class="experience-item__highlights">
           {% for item in post.highlights %}

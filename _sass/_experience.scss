@@ -68,14 +68,8 @@
   margin-bottom: 0.75rem;
 }
 
-.experience-item__duration,
-.experience-item__location {
-  font-weight: 600;
-}
-
-.experience-item__date {
-  font-weight: 600;
-  color: var(--global-text-color);
+.experience-item__duration {
+  font-weight: 700;
 }
 
 .experience-item__title {
@@ -105,7 +99,7 @@
 
 .experience-item__highlights {
   margin: 0 0 0.85rem 1.1rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .experience-item__skills {

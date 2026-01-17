@@ -4,20 +4,12 @@ permalink: /fun-facts/
 author_profile: true
 ---
 
-Outside academics, I enjoy building, exploring, and learning new things. Here are a few fun facts about me.
+Outside academics, I enjoy playing Soccer, cars, Games， stocks --- in that order.
+I love soccer and once served as the captain of my secondary school team in China. After Grade 9, my knee forced me to give up my dream of playing soccer and I shifted my focus to academics. I’m also a super fan of Henan FC, my hometown club. I first went to watch matches at the home stadium with my dad back in 2006, and to this day, every time I go back home, I make sure to visit the stadium to catch a game. If talking about my dream in soccer field? My dream is that one day China’s national team will qualify for the World Cup :(.
 
-Interests & Hobbies
-======
-- Robotics side projects and hardware tinkering
-- Photography and travel
-- Hiking and outdoor exploration
-- Coffee brewing and cafe hopping
+For video games, I mainly play CS:GO (CS2). I used to compete with UofT JVM in the NACE Starleague. I also enjoy playing FIFA (EA Sports FC). Since I couldn’t fully achieve my soccer dream in real life, I channel that passion through the game. At my peak, I ranked 28th in the world ranking in a single-season leaderboard (Division Rivals).
 
-Personality
-======
-- Curious, hands-on, and detail-oriented
-- Enjoys collaboration and mentoring
-- Likes turning ideas into real prototypes
+I’ve also been an active stock investor for a long time, since 2014 (I was 13, yes), I started learning about and trading stocks under my mom’s influence, and I’ve continued ever since (mainly in China’s A-share)
 
 Gallery
 ======

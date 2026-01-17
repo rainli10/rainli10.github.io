@@ -1,12 +1,16 @@
 ---
 layout: archive
-title: "Experiences"
-permalink: /experiences/
+title: "My Experience"
+permalink: /experience/
 redirect_from:
   - /internships/
+  - /experiences/
 author_profile: true
 ---
 
-{% for post in site.internships reversed %}
-  {% include archive-single-internship.html %}
-{% endfor %}
+<div class="experience-list">
+  {% assign items = site.internships | sort: "date" | reverse %}
+  {% for post in items %}
+    {% include archive-single-internship.html %}
+  {% endfor %}
+</div>

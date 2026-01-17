@@ -1,45 +1,73 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+<div class="experience-item">
+  <div class="experience-item__line" aria-hidden="true">
+    <span class="experience-item__dot"></span>
+  </div>
+
+  <div class="experience-item__card">
+    <div class="experience-item__meta">
+      {% if post.date %}
+        <div class="experience-item__date">{{ post.date | date: '%b %Y' }}</div>
       {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.company %}<p class="page__meta"><i class="fa fa-building" aria-hidden="true"></i> {{ post.company | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
-    {% if post.location %}<p class="page__meta"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>{% endif %}
-    {% if post.duration %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.duration }}</p>{% endif %}
-    {% if post.organization %}<p class="archive__item-excerpt" itemprop="description">{{ post.organization }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-  </article>
+      {% if post.duration %}
+        <div class="experience-item__duration">{{ post.duration }}</div>
+      {% endif %}
+      {% if post.location %}
+        <div class="experience-item__location">{{ post.location }}</div>
+      {% endif %}
+    </div>
+
+    <article class="experience-item__body" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="experience-item__title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+
+      {% if post.company %}
+        <div class="experience-item__company">
+          {% if post.company_url %}
+            <a href="{{ post.company_url }}">{{ post.company }}</a>
+          {% else %}
+            {{ post.company }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if post.summary %}
+        <p class="experience-item__summary">
+          {{ post.summary | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      {% elsif post.excerpt %}
+        <p class="experience-item__summary">
+          {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      {% endif %}
+
+      {% if post.highlights %}
+        <ul class="experience-item__highlights">
+          {% for item in post.highlights %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if post.skills %}
+        <div class="experience-item__skills">
+          {% for skill in post.skills %}
+            <span class="experience-item__tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  </div>
 </div>

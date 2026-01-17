@@ -1,0 +1,115 @@
+.experience-list {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: start;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.experience-item__line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.experience-item__line::before {
+  content: "";
+  position: absolute;
+  top: -2.5rem;
+  bottom: -2.5rem;
+  width: 2px;
+  background: var(--global-border-color);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.experience-item__dot {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid var(--global-border-color);
+  background: var(--global-bg-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.experience-item__dot::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--global-link-color);
+}
+
+.experience-item__card {
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06);
+  padding: 1.5rem 1.75rem;
+}
+
+.experience-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+.experience-item__date {
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.experience-item__title {
+  margin: 0 0 0.35rem 0;
+}
+
+.experience-item__company {
+  margin-bottom: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.experience-item__summary {
+  margin: 0 0 0.85rem 0;
+}
+
+.experience-item__highlights {
+  margin: 0 0 0.85rem 1.1rem;
+}
+
+.experience-item__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experience-item__tag {
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-border-color);
+  background: var(--global-code-background-color);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-item__line {
+    display: none;
+  }
+}

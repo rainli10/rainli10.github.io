@@ -21,6 +21,6 @@ I’ve also been an active stock investor for a long time, since 2013 (I was 12,
 </div> -->
 
 <div class="fun-facts-image">
-  <img src="/images/banff.png" alt="">
+  <img src="/images/banff.jpg" alt="">
 </div>
 

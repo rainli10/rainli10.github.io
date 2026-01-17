@@ -1,0 +1,15 @@
+.fun-facts-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.fun-facts-gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.08);
+}

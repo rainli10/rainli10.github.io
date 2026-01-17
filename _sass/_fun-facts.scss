@@ -13,3 +13,14 @@
   border: 1px solid var(--global-border-color);
   box-shadow: 0 4px 14px rgba(17, 24, 39, 0.08);
 }
+
+.fun-facts-image {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.fun-facts-image img {
+  display: inline-block;
+  max-width: none;
+  height: auto;
+}

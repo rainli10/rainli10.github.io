@@ -21,6 +21,6 @@ I’ve also been an active stock investor for a long time, since 2013 (I was 12,
 </div> -->
 
 <div class="fun-facts-image">
-  <img src="/images/henan.jpg" alt="Fight For Henan">
+  <img src="/images/henan.png" alt="">
 </div>
 

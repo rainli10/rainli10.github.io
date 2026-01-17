@@ -1,7 +1,7 @@
 ---
 title: "Software Engineer Intern"
 company: "RTX, Pratt & Whitney"
-company_logo: /images/huawei.jpg
+company_logo: /images/logos/rtx.png
 location: "Mississauga, ON"
 duration: "May 2022 - Aug 2022"
 date: 2022-05-01

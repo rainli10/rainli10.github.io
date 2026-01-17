@@ -20,7 +20,7 @@ I’ve also been an active stock investor for a long time, since 2013 (I was 12,
   <img src="/images/fun-3.jpg" alt="Fun photo 3">
 </div> -->
 <div class="fun-facts-image">
-  <img src="/images/fun-main.jpg" alt="Fun photo">
+  <img src="/images/banff.jpg" alt="Fun photo">
 </div>
 <!-- <div class="fun-facts-pair">
   <img src="/images/banff.jpg" alt="">

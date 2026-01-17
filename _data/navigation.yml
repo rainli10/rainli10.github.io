@@ -18,7 +18,7 @@ main:
     url: /awards/ 
 
   - title: "Experiences"
-    url: /experiences/  
+    url: /experiences/
 
   # - title: "Guide"
   #   url: /markdown/ 

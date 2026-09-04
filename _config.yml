@@ -27,11 +27,11 @@ author:
   avatar_hover     : "hoverimg.jpg"
   name             : "Rain (Runhao) Li"
   pronouns         : 
-  bio              : "BASc Student in Engineering Science, Robotics Engineering at University of Toronto"
-  location         : "Toronto, ON, Canada"
+  bio              : "MSE Robotics @ UPenn | BASc EngSci Robotics @ UofT"
+  location         : "Philadelphia, PA | Toronto, ON"
   employer         : 
   uri              : # URL
-  email            : "rain.li@mail.utoronto.ca" 
+  email            : "rainli10@engineering.upenn.edu" 
 
   # Academic websites
   academia         : # URL
@@ -84,10 +84,8 @@ author:
 publication_category:
   books:
     title: 'Books'
-  Ongoing Projects:
-    title: 'Ongoing Research'    
-  Past Projects:
-    title: 'Past Research'
+  Selected Research:
+    title: 'Selected Research'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

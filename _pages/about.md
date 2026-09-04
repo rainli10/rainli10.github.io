@@ -16,14 +16,9 @@ During my undergraduate studies, I conducted my thesis research on long-horizon 
 
 ## Research Interests
 
-My long-term research goal is to develop intelligent robotic systems that can perceive, reason, learn, and act effectively in complex real-world environments.
-
-I am particularly interested in:
-
+My long-term research goal is to develop intelligent robotic systems that can perceive, reason, learn, and act effectively in complex real-world environments. I am particularly interested in:
 - **Robot Learning & Embodied AI:** generalizable robot policies, vision-language-action models, imitation learning, reinforcement learning, and adaptive robot behavior.
 - **3D/4D Perception:** developing generalizable methods for 3D and 4D scene understanding, generative models, reconstruction, and perception in complex real-world environments.
-
-My current goal is to increasingly connect my previous work in embodied perception, navigation, and 3D scene understanding with learning-based robotic decision-making and control.
 
 
 

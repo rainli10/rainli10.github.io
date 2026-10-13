@@ -73,21 +73,21 @@
     {% endif %}
     
     {% if post.paperurl and post.videourl and post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl and post.videourl and post.slidesurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.paperurl and post.videourl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl and post.videourl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.videourl }}" target="_blank">Video</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.videourl }}" target="_blank">Video</a></p>
     {% elsif post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl and post.slidesurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a></p>
+      <p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a></p>
     {% elsif post.videourl and post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.videourl }}" target="_blank">Video</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.videourl and post.slidesurl %}
